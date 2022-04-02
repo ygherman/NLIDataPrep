@@ -11,6 +11,7 @@ Pillow = ">=4.3.0"
 pandas = "*"
 beautifulsoup4 = "*"
 wxpython = "*"
+mock = "*"
 
 [dev-packages]
 
