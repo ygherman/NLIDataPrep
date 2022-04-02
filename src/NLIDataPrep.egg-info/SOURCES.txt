@@ -1,5 +1,8 @@
+LICENSE
+README.md
 setup.py
 src/NLIDataPrep.egg-info/PKG-INFO
 src/NLIDataPrep.egg-info/SOURCES.txt
 src/NLIDataPrep.egg-info/dependency_links.txt
+src/NLIDataPrep.egg-info/requires.txt
 src/NLIDataPrep.egg-info/top_level.txt

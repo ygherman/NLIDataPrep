@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4be3a3f4f59d939905307ded7b4393b683d65f9d0d4658afda8b01fc18888eca"
+            "sha256": "4dca369e874fc71b6675822d9d4d1ec33494b95e06bf0c647f474c2c0f7c57fd"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -40,12 +40,28 @@
             "index": "pypi",
             "version": "==4.10.0"
         },
+        "build": {
+            "hashes": [
+                "sha256:1aaadcd69338252ade4f7ec1265e1a19184bf916d84c9b7df095f423948cb89f",
+                "sha256:21b7ebbd1b22499c4dac536abc7606696ea4d909fd755e00f09f3c0f2c05e3c8"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==0.7.0"
+        },
+        "check-manifest": {
+            "hashes": [
+                "sha256:3b575f1dade7beb3078ef4bf33a94519834457c7281dbc726b15c5466b55c657",
+                "sha256:b1923685f98c1c2468601a1a7bed655db549a25d43c583caded3860ad8308f8c"
+            ],
+            "index": "pypi",
+            "version": "==0.48"
+        },
         "colorama": {
             "hashes": [
                 "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b",
                 "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"
             ],
-            "markers": "sys_platform == 'win32'",
+            "markers": "sys_platform == 'win32' and os_name == 'nt'",
             "version": "==0.4.4"
         },
         "colored": {
@@ -130,6 +146,13 @@
             ],
             "index": "pypi",
             "version": "==1.4.2"
+        },
+        "pep517": {
+            "hashes": [
+                "sha256:931378d93d11b298cf511dd634cf5ea4cb249a28ef84160b3247ee9afb4e8ab0",
+                "sha256:dd884c326898e2c6e11f9e0b64940606a93eb10ea022a2e067959f3a110cf161"
+            ],
+            "version": "==0.12.0"
         },
         "pillow": {
             "hashes": [
@@ -289,7 +312,7 @@
                 "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc",
                 "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_version >= '3.6'",
             "version": "==2.0.1"
         },
         "wxpython": {
