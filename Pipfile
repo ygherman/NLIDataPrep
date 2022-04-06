@@ -15,6 +15,7 @@ mock = "*"
 pytest = "*"
 check-manifest = "*"
 twine = "*"
+tox = "*"
 
 [dev-packages]
 
