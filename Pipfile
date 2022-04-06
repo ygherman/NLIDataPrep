@@ -16,6 +16,7 @@ pytest = "*"
 check-manifest = "*"
 twine = "*"
 tox = "*"
+pymarc = "*"
 
 [dev-packages]
 

@@ -22,6 +22,7 @@ setup(
     long_description_content_type="text/markdown",
     install_require = [
         "pandas ~= 1.4",
+        "pymarc~=4"
     ],
     extras_require = {
         "dev": [
